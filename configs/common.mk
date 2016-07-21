@@ -104,11 +104,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
-# Default Vietnamese Lang
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.locale.language=vi
-	ro.product.locale.region=VN
-
 # Thank you, please drive thru!
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0
